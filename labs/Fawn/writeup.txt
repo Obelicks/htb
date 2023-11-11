@@ -1,0 +1,23 @@
+ip: 10.129.20.131
+
+Task 1: File Transfer Protocol
+
+Task 2: 21
+
+Task 3: SFTP (FTP over ssh)
+
+Task 4: ping
+
+Task 5: vsftpd 3.0.3
+
+Task 6: Unix
+
+Task 7: ftp -h
+
+Task 8: anonymous
+
+Task 9: 230
+
+Task 10: ls
+
+Task 11: get 

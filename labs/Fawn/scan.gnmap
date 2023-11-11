@@ -1,0 +1,4 @@
+# Nmap 7.93 scan initiated Sat Nov 11 23:11:15 2023 as: nmap -sV -p- -O -oA scan 10.129.20.131
+Host: 10.129.20.131 ()	Status: Up
+Host: 10.129.20.131 ()	Ports: 21/open/tcp//ftp//vsftpd 3.0.3/	Ignored State: closed (65534)	Seq Index: 257	IP ID Seq: All zeros
+# Nmap done at Sat Nov 11 23:11:36 2023 -- 1 IP address (1 host up) scanned in 21.00 seconds
