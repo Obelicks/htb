@@ -1,0 +1,17 @@
+ip: 10.129.113.189
+
+Task 1: Server Message Block
+
+Task 2: 445
+
+Task 3: microsoft-ds
+
+Task 4: -L 
+
+Task 5: 4
+
+Task 6: WorkShares smbclient -L <ip>
+
+connect with:smbclient //<ip>/WorkShares
+
+Task 7: get

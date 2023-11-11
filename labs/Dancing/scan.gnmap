@@ -1,0 +1,4 @@
+# Nmap 7.93 scan initiated Sat Nov 11 23:20:52 2023 as: nmap -sV -p- -O -oA scan 10.129.113.189
+Host: 10.129.113.189 ()	Status: Up
+Host: 10.129.113.189 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds?///, 5985/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/, 47001/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/, 49664/open/tcp//msrpc//Microsoft Windows RPC/, 49665/open/tcp//msrpc//Microsoft Windows RPC/, 49666/open/tcp//msrpc//Microsoft Windows RPC/, 49667/open/tcp//msrpc//Microsoft Windows RPC/, 49668/open/tcp//msrpc//Microsoft Windows RPC/, 49669/open/tcp//msrpc//Microsoft Windows RPC/	Ignored State: closed (65524)	Seq Index: 260	IP ID Seq: Incremental
+# Nmap done at Sat Nov 11 23:22:22 2023 -- 1 IP address (1 host up) scanned in 89.92 seconds
