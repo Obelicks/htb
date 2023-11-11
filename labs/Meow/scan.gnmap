@@ -1,0 +1,4 @@
+# Nmap 7.93 scan initiated Sat Nov 11 23:03:51 2023 as: nmap -sV -p- -oA scan 10.129.42.157
+Host: 10.129.42.157 ()	Status: Up
+Host: 10.129.42.157 ()	Ports: 23/open/tcp//telnet//Linux telnetd/	Ignored State: closed (65534)
+# Nmap done at Sat Nov 11 23:04:12 2023 -- 1 IP address (1 host up) scanned in 21.90 seconds
