@@ -1,0 +1,21 @@
+ip: 10.129.226.198
+
+Task 1: Structured Query Language
+
+Task 2: sql injections
+
+Task 3: A03:2021-Injection
+
+Task 4: Apache httpd 2.4.38 ((Debian))
+
+Task 5: 443
+
+Task 6: directory
+
+Task 7: 404
+
+Task 8: gobuster dir
+
+Task 9: #
+
+Task 10: Congratulations

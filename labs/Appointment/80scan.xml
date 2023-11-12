@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.93 scan initiated Sun Nov 12 18:24:30 2023 as: nmap -sV -p 80 -oA 80scan 10.129.226.198 -->
+<nmaprun scanner="nmap" args="nmap -sV -p 80 -oA 80scan 10.129.226.198" start="1699813470" startstr="Sun Nov 12 18:24:30 2023" version="7.93" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="80"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.129.226.198" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1699813470" endtime="1699813476"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.129.226.198" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="2.4.38" extrainfo="(Debian)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.38</cpe></service></port>
+</ports>
+<times srtt="24652" rttvar="18688" to="100000"/>
+</host>
+<runstats><finished time="1699813476" timestr="Sun Nov 12 18:24:36 2023" summary="Nmap done at Sun Nov 12 18:24:36 2023; 1 IP address (1 host up) scanned in 6.79 seconds" elapsed="6.79" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

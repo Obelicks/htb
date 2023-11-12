@@ -1,0 +1,6 @@
+/images              [36m (Status: 301)[0m [Size: 317][34m [--> http://10.129.226.198/images/][0m
+/css                 [36m (Status: 301)[0m [Size: 314][34m [--> http://10.129.226.198/css/][0m
+/js                  [36m (Status: 301)[0m [Size: 313][34m [--> http://10.129.226.198/js/][0m
+/vendor              [36m (Status: 301)[0m [Size: 317][34m [--> http://10.129.226.198/vendor/][0m
+/fonts               [36m (Status: 301)[0m [Size: 316][34m [--> http://10.129.226.198/fonts/][0m
+/server-status       [33m (Status: 403)[0m [Size: 279]
