@@ -1,0 +1,4 @@
+# Nmap 7.93 scan initiated Sun Nov 12 08:23:03 2023 as: nmap -sV -p- -oA completescan 10.129.190.244
+Host: 10.129.190.244 ()	Status: Up
+Host: 10.129.190.244 ()	Ports: 6379/open/tcp//redis//Redis key-value store 5.0.7/	Ignored State: closed (65534)
+# Nmap done at Sun Nov 12 08:23:56 2023 -- 1 IP address (1 host up) scanned in 53.25 seconds

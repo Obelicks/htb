@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.93 scan initiated Sun Nov 12 08:23:03 2023 as: nmap -sV -p- -oA completescan 10.129.190.244 -->
+<nmaprun scanner="nmap" args="nmap -sV -p- -oA completescan 10.129.190.244" start="1699777383" startstr="Sun Nov 12 08:23:03 2023" version="7.93" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.129.190.244" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskprogress task="Connect Scan" time="1699777403" percent="43.71" remaining="26" etc="1699777429"/>
+<host starttime="1699777383" endtime="1699777436"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="10.129.190.244" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65534">
+<extrareasons reason="conn-refused" count="65534" proto="tcp" ports="1-6378,6380-65535"/>
+</extraports>
+<port protocol="tcp" portid="6379"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="redis" product="Redis key-value store" version="5.0.7" method="probed" conf="10"><cpe>cpe:/a:redislabs:redis:5.0.7</cpe></service></port>
+</ports>
+<times srtt="85053" rttvar="1107" to="100000"/>
+</host>
+<runstats><finished time="1699777436" timestr="Sun Nov 12 08:23:56 2023" summary="Nmap done at Sun Nov 12 08:23:56 2023; 1 IP address (1 host up) scanned in 53.25 seconds" elapsed="53.25" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
