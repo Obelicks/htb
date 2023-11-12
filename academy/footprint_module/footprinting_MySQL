@@ -1,0 +1,11 @@
+target: 10.129.227.249
+MySQL 
+port: 3306 ()
+Users: 
+
+Former user on the server: robin had password: robin!
+
+SHOW DATABASES;
+USE <DATABASE>;
+SHOW tables;
+

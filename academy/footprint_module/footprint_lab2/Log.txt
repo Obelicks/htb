@@ -1,0 +1,21 @@
+Target: 10.129.202.41
+Hostname: WINMEDIUM
+Objective find User HTB Password
+
+Fast scan: 
+PORT     STATE SERVICE
+111/tcp  open  rpcbind
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+2049/tcp open  nfs
+3389/tcp open  ms-wbt-server
+
+smtp server login:
+    alex:lol123!mD
+   
+Got rdp access
+C:\Users\alex\devshare\important
+sa:87N1ns@slls83
+opening the sql-manager as admin providing the above password.
+HTB:lnch7ehrdn43i7AoqVPK4zWR

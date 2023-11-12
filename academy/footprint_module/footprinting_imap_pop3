@@ -1,0 +1,8 @@
+username: robin
+password: robin
+target: 10.129.187.27
+
+commonName: dev.inlanefreight.htb
+orgName: InlaneFreight Ltd
+state: London
+countryName: UK
