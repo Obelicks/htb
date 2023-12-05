@@ -1,0 +1,27 @@
+Archetype
+
+Task 1: which TCP port is hosting a Database Connection?
+	1433 ms-sql-s
+
+Task 2: what is the name of the non-admin share?
+	backups
+	
+Task 3: What is the password identified on the share?
+	Password = M3g4c0rp123 and also User ID=ARCHETYPE\sql_svc
+
+Task 4: What script from impacket can established auth-conn with the target sql server?
+	mssqlclient.py
+	
+Task 5: What is the stored procedure which can spawn a windows shell?
+	xp_cmdshell. #remeber to enable it!
+	
+Task 6: hwat script can be used to privesc on windows
+	winpeas
+	
+Task 7: what file contains the admin password?
+	ConsoleHost_history.txt
+
+
+User flag: 3e7b102e78218e935bf3f4951fec21a3
+
+Root flag: b91ccec3305e98240082d4474b848528
